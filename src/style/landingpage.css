@@ -1,0 +1,178 @@
+.bg{
+  background: #E03C31;
+  height: 100%;
+}
+.pokeball{
+  height: 60px;
+  padding-bottom: 7px;
+}
+.pokemon{
+  height: 80px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.pokedex{
+  background: #E03C31;
+  line-height: 1;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 167.5%;
+}
+.pokemon-list{
+  margin-bottom: 10px;
+  line-height: 1;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+}
+.pokemon-info{
+  margin-left: 105px;
+  line-height: 1;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+}
+.biglist{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.smalllist{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.list-poke{
+  display: flex;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  width: 190px;
+  height: 13vh;
+  background: silver;
+  text-align: center;
+  align-items: center;
+  text-transform: capitalize;
+  border-style: outset;
+  border-radius: 0.5rem;
+  border-color: white;
+}
+.list-img{
+  height: 12vh;
+  margin-left: 5px;
+}
+.list-name{
+}
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background: #353839;
+  border-style: inset;
+  border-radius: 0.5rem;
+  border-color: silver;
+  padding: 10px;
+}
+.btn-prv{
+  margin-top:31.5vh;
+  width: 100%;
+  height: 100px;
+  border-radius: 1rem;
+  float: left;
+  text-align: center;
+  align-items: center;
+}
+.btn-nxt{
+  margin-top:31.5vh;
+  width: 100%;
+  height: 100px;
+  border-radius: 1rem;
+  float: right;
+  text-align: center;
+  align-items: center;
+}
+.pokedex-top{
+  margin-top:20px;
+}
+.pokedex-bottom{
+
+}
+.footer{
+  height: 10px;
+}
+.loading{
+  text-align: center;
+  align-items: center;
+}
+.detail-img{
+  height: 295px;
+}
+.detail{
+  margin: 20px;
+  height: 334px;
+  background-color: white;
+  border-radius: 1rem;
+  font-size: 12px;
+  text-transform: capitalize;
+  width: 825px;
+}
+.poster{
+  margin-bottom: 10px;
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.poke-name{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+.but{
+  height: 50px;
+}
+.left-detail,.middle-detail,.right-detail{
+  width: 33.3%;
+  height:100%;
+  float:left;
+}
+.info-title,.stats-title{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  float:left;
+  font-weight: 700;
+}
+.info-name,.stats-name{
+  padding: 10px;
+  font-weight: 700;
+  width: 120px;
+
+}
+.abilities-title,.type-title{
+  padding: 10px;
+  font-weight: 700;
+  float: left;
+}
+.info-detail,.stats-detail,.abilities-detail,.type-detail{
+  padding: 10px;
+}
+.poke-poster{
+  width: 10px;
+}
+.moves{
+  height: 175px;
+}
+.moves-title{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+.moves-data{
+  font-size: 8px;
+  padding-left: 10px;
+  height: 160px;
+  width: 800px;
+  display: grid;
+  grid-template-areas: "a a a a a a a a a a";
+  grid-row-gap: 0px;
+  grid-auto-columns: 80px;
+}
